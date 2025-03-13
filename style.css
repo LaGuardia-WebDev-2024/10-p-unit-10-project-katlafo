@@ -34,7 +34,15 @@ html{
 }
 
 h2{
-  color: black;
+  color: #9baff9;
+}
+
+h4{
+  color: #9be7f9
+}
+
+span{
+  color: #f9a09b
 }
 
 #start{
