@@ -2,8 +2,6 @@ setup = function() {
     size(400, 600); 
     background(190,198,240);
     
-    var Image1 = loadImage("https://static.vecteezy.com/system/resources/thumbnails/024/513/406/small/y2k-gradient-heart-png.png");
-    
     for(var y = 0; y < 600; y+=60){
     
       var x = 0
@@ -23,10 +21,13 @@ setup = function() {
    }
 
     }
+    
+    };
+    
+var Image1 = loadImage("https://static.vecteezy.com/system/resources/thumbnails/024/513/406/small/y2k-gradient-heart-png.png");
 draw = function(){
 image(Image1, 90, 200);
 }
-  
-};
+
 
 
